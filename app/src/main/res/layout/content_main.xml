@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#385794">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/personal"
+        android:layout_weight="0.13"
+        style="@style/AppTheme.AppBarOverlay"
+        android:gravity="top|center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="Logout"
+        android:textColor="#FFF"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:id="@+id/rosterList">
+    </ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insert"
+        android:text="Add Day"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewAll"
+        android:text="View Full Roster"
+        android:textColor="#FFF" />
+
+
+</LinearLayout>

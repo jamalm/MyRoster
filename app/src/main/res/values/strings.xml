@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyRoster</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Main Menu</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+
+    <string name="roster_delete">Delete</string>
+    <string name="roster_update">Update</string>
+    <string name="view1">View Full Roster</string>
+    <string name="view2">View Personal Roster</string>
+</resources>
